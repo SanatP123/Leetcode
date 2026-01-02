@@ -34,6 +34,5 @@ Dynamic Programming
 Backtracking
 
 
-Consistency and deep understanding matter more than speed or volume.
 
-This repository serves as a personal log of growth, learning, and discipline through everyday practice.
+**This repository serves as a personal log of growth, learning, and discipline through everyday practice.**
