@@ -8,13 +8,7 @@ class Solution:
                 return i
             dic[i] = 1
     
-    # def repeatedNTimes(self, nums: List[int]) -> int:
-    #     m = len(nums)
-    #     n = m // 2
-    #     count = Counter(nums)
-    #     for i,j in count.items():
-    #         if j == n:
-    #             return i
+
 
 sol = Solution()
 inputs = [
@@ -25,3 +19,12 @@ inputs = [
 
 for test_input in inputs:
     print(f"Input: {test_input} => Output: {sol.repeatedNTimes(test_input)}")
+
+
+    # def repeatedNTimes(self, nums: List[int]) -> int:
+    #     m = len(nums)
+    #     n = m // 2
+    #     count = Counter(nums)
+    #     for i,j in count.items():
+    #         if j == n:
+    #             return i
