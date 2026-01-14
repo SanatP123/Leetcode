@@ -5,7 +5,7 @@ class Solution:
         # Compute total area of all squares
         total_area = sum(l * l for _, _, l in squares)
         # Area below will be exactly half of total area
-        target = total_area/2.0
+        target = total_area//2.0
 
         # Helper function to compute area BELOW a given Y
         def check(Y):
