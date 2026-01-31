@@ -1,0 +1,15 @@
+# Ignore everything inside Citadel folder
+Citadel/**
+
+# Re-include all .cpp files anywhere under Citadel
+!Citadel/**/*.cpp
+
+# Ignore macOS debug symbol folders anywhere
+*.dSYM/
+
+# Ignore binaries and object files
+*.out
+*.o
+
+# Ignore VS Code folder
+.vscode/
