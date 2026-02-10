@@ -38,7 +38,10 @@ sol = Solution()
 # Tree 2:
 #         1
 #        / \
-#       2   3           
+#       2   3       
+#
+
+
 
 p = TreeNode(1)
 p.left = TreeNode(2)
