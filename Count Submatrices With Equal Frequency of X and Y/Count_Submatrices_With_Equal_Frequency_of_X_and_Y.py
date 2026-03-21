@@ -46,7 +46,7 @@ class Solution:
         ans = 0
         for i in range(row):
             for j in range(col):
-                if ps[i][j] == 0 and px[i][j] == 1:
+                if ps[i][j] == 0 and px[i][j] > 0:
                     ans += 1
         return ans
 
