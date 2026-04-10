@@ -13,3 +13,8 @@ Citadel/**
 
 # Ignore VS Code folder
 .vscode/
+Java/MergeSortedArray.class
+*.class
+python3
+.DS_Store
+.DS_Store
