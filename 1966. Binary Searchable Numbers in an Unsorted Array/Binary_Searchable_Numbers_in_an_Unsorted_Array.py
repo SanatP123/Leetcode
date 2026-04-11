@@ -10,6 +10,8 @@ class Solution:
         right_min = [float('inf')] * n
 
         current_max = nums[0]
+
+        
         for i in range(1,n):
             left_max[i] = current_max
             current_max = max(nums[i],current_max)
