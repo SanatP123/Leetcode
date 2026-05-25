@@ -1,3 +1,4 @@
+package BiweeklyContest183;
 class MinimumOperationstoMakeArrayModuloAlternatingI {
     public int minOperations(int[] nums, int k) {
         int n = nums.length;

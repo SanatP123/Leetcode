@@ -1,3 +1,4 @@
+package BiweeklyContest183;
 public class MinimumSwapstoMoveZerostoEnd {
      public int minimumSwaps(int[] nums) {
         int n = nums.length;
