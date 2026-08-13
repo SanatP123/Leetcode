@@ -18,7 +18,7 @@ function longestNiceSubstring(s: string): string {
 
             // Check both cases exist
             for (const char of map.keys()){
-                if (!map.get(char) || !map.get(char.toUpperCase())){
+                if (!map.get(char.toLowerCase()) || !map.get(char.toUpperCase())){
                     isNice = false;
                     break;
                 }
