@@ -8,7 +8,7 @@
 
 // Constraints:
 
-// 1 <= s.length <= 105​​​​​​​
+// 1 <= s.length <= 10^5​​​​​​​
 // s only consists of 'a', 'b', and 'c' characters.
 
 function countValidSubstrings(s: string): number {
